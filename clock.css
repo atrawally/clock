@@ -1,0 +1,73 @@
+h1{
+    font-family: Times New Roman, Times, serif;
+    align-items: center;
+    justify-content: center;
+    font-size:70;
+	color: orange;
+}
+body {
+
+
+background-color: #423fda !important;
+
+}
+
+.main {
+height: 50vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+padding: 20px;
+}
+
+.dateContainer{
+background: orange;
+color: white;
+width: 100%;
+font-family: Tahoma;
+height: auto;
+position: relative;
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+}
+
+.clockContainer	{
+border-radius: 20px;
+background: orange;
+width: 90%;
+max-width: 450px;
+height: auto;
+position: relative;
+border: 1px yellow solid;
+box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+text-align: center;
+font-size: 50px;
+font-family: Georgia;
+}
+.clockpart
+{
+padding:0px !important;
+min-width:60px !important;
+
+display: inline-block;
+}
+.clockmin
+{
+padding:0px;
+width:5px ;
+}
+#blink-bg{
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #423fda;}
+		50%		{ background-color: orange;}
+		100%	        { background-color: #423fda;}
+	}
